@@ -8,7 +8,7 @@ function adicionarAmigo() {
         amigoInput.value = "";
         exibirAmigos();
     } else {
-        alert("Por favor, insira um nome válido.");
+        alert("Por favor, insira um nome.");
         return;
     }
 }
@@ -27,7 +27,9 @@ function sortearAmigo() {
     amigos.sort();
     exibirAmigos();
     let sorteado = amigos[Math.floor(Math.random() * amigos.length)];
-    alert("Amigo sorteado: " + sorteado);
+    let resultado = document.getElementById("resultado");
+    resultado.textContent = `Amigo sorteado: ${sorteado}`;
+    resultado.style.display = "block";
 }
 
 
