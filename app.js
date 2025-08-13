@@ -28,7 +28,7 @@ function sortearAmigo() {
     exibirAmigos();
     let sorteado = amigos[Math.floor(Math.random() * amigos.length)];
     let resultado = document.getElementById("resultado");
-    resultado.textContent = `Amigo sorteado: ${sorteado}`;
+    resultado.textContent = `O amigo sorteado foi: ${sorteado}`;
     resultado.style.display = "block";
 }
 
