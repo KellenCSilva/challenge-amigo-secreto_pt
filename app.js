@@ -1,4 +1,6 @@
 let amigos = [];
+let nomeUsuario = prompt("Digite seu nome:");
+
 
 function adicionarAmigo() {
     let amigoInput = document.getElementById("amigo");
@@ -11,6 +13,17 @@ function adicionarAmigo() {
         alert("Por favor, insira um nome.");
         return;
     }
+    if (amigo === nomeUsuario) {
+        alert("Você não pode sortear seu nome, digite o nome de outro amigo.");
+        amigos.pop(); // Remove o nome do usuário da lista
+        amigoInput.value = ""; // Limpa o campo de entrada
+        limparLista();
+    }
+}
+
+function limparLista() {
+    amigos = [];
+    exibirAmigos();
 }
 
 function exibirAmigos() {

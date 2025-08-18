@@ -55,10 +55,11 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 50px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
+    text-align: justify;
     color: var(--color-white);
 }
 
