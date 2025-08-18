@@ -1,9 +1,10 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #ffc5cf;
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-tertiary: #fcc2c2;
+    --color-quaternary: #f38898;
+    --color-button: #ff7088;
+    --color-button-hover: #ff6c84;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -43,7 +44,7 @@ body {
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: 1px solid #f3758a;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
@@ -65,7 +66,7 @@ body {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: var(--color-quaternary);
     margin: 10px 0;
     text-align: center;
 }
@@ -82,7 +83,7 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #f3758a;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -97,7 +98,7 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #333;
+    border: 2px solid #e78b9a;
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
@@ -109,9 +110,9 @@ button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    border: 2px solid #000;
+    border: 2px solid #f3758a;
     border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(255, 132, 153, 0.74);
     cursor: pointer;
 }
 
@@ -122,7 +123,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #f38d9e;
 }
 
 /* Listas */
@@ -136,7 +137,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #f74966;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
