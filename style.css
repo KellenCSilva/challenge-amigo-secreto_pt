@@ -6,7 +6,7 @@
     --color-button: #ff7088;
     --color-button-hover: #ff6c84;
     --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-white: #ffffff;
 }
 
 /* Estilos gerais */
@@ -57,9 +57,9 @@ body {
 .main-title {
     font-size: 50px;
     font-family: "Merriweather", serif;
-    font-weight: 900;
+    font-weight: 800;
     font-style: italic;
-    text-align: justify;
+    text-align: center;
     color: var(--color-white);
 }
 
@@ -151,6 +151,7 @@ ul {
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
+    border-radius: 25px;
     background-color: var(--color-button);
     font-size: 16px;
 }
@@ -161,4 +162,21 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+@media screen and (max-width: 800px) {
+    .main{
+        margin: auto;
+        min-width: 320px;
+    }
+    .img {
+        margin: auto;
+        min-width: 320px;
+        height: auto;
+    }
+    .main-title {
+        margin: 50px 50px;
+        font-size: 40px;
+        text-align: justify;
+    }
 }
