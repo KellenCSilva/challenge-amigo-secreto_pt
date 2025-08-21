@@ -166,7 +166,7 @@ ul {
 
 @media screen and (max-width: 800px) {
     body {
-        display: flex;
+        display: block;
         flex-direction: column;
         height: auto;
         align-items: center; /* centraliza os elementos no body */
@@ -177,6 +177,7 @@ ul {
         margin: 0 auto;
         max-width: 100%;
         height: auto;
+        
     }
 
     .main-title {
